@@ -8,6 +8,9 @@ To play the game, you or the AI start. You are Player 1 corresponding with the l
 
 If the AI starts, you wait until the AI finishes its turn for you to make another turn. The game finishes when either you or the AI manages to have 3 X's or O's in a given column or row.
 
+![image](https://github.com/torisutansan1/README-files/assets/97696590/c0718261-0ec6-4108-9c6d-545d7843f710)
+
+
 ## Code Structure
 The implementation of the tic-tac-toe game I provide uses different techniques to increase AI efficiency and decrease the runtime. I utilize the minimax algorithm with memoization to create my AI algorithm.
 
