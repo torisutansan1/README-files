@@ -1,12 +1,8 @@
 # Q-learning-Tic-Tac-Toe
-Reinforcement learning of the game of Tic Tac Toe in Python.
+Minimax algorithm for a Tic-Tac-Toe Game
 
 ## Basic usage
-To play Tic Tac Toe against a computer player trained by playing 200,000 games against itself, enter
-
-`python Tic_Tac_Toe_Human_vs_QPlayer.py` 
-
-at the command line. (You'll need to have Python installed with the Numpy package). This will bring up a simple GUI in which clicking on any of the buttons causes the mark "X" to appear and the computer to immediately respond with a countermove (Figure 1).
+To play the Tic-Tac-Toe game, you must run the `tic-tac-toe.py` file on an IDE like VSCode.
 
 ![](Images/Tic_Tac_Toe_cats_game.png)  
 **Figure 1.** A Tic Tac Toe game which resulted in a tie (cat's game).
