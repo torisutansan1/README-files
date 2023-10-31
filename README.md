@@ -8,7 +8,7 @@ To play the game, you or the AI start. You are Player 1 corresponding with the l
 
 If the AI starts, you wait until the AI finishes its turn for you to make another turn. The game finishes when either you or the AI manages to have 3 X's or O's in a given column or row.
 
-Gameplay Example Scenario:
+## Gameplay Example Scenario
 ![image](https://github.com/torisutansan1/README-files/assets/97696590/c0718261-0ec6-4108-9c6d-545d7843f710)
 
 The image I provide here demonstrates a alpha-beta pruning tree. If the user plays a losing move, then the algorithm knows to prune the scenarios where the AI does not win. This massively increases AI efficiency in this case as shown in the third and fourth rows in the image I provide.
@@ -29,7 +29,7 @@ If the winner is O, then the self.judge.is_winner function returns 1, -1 if X.
 
 I utilize the variables bestScore and bestMove for the Minimax algorithm. The Minimax algorithm I provide is a nested loop.
 
-Algorithm Description:
+## Algorithm Description
 My original AI algorithm using the Minimax algorithm was inefficient, resulting in the usage of alpha and beta pruning. Using alpha-beta pruning, my algorithm is significantly more efficient. In game theory, alpha-beta pruning allows me to cut off branches in the game tree that do not need to be searched. It knows a better move already exists. To add this optimization, I need to add alpha and beta as paramaters to the Minimax algorithm. Alpha corresponds to the maximizer and beta corresponds to the minimizer.
 
 The algorithm also utilizes a recursive call and my usage of memoization intends to decrease the runtime. The maximizing boolean variable allows the board to fill a slot with either O or X. bestScore stores currScore if currScore is greater than bestScore.
