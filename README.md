@@ -38,6 +38,6 @@ The algorithm also utilizes a recursive call and my usage of memoization intends
 Tic-tac-toe is a famous game where two players make move in a 3x3 board until one manages to get either an X or an O in an entire column or row. However, sometimes there is not another person to play with and the user wants to play with themselves. To solve this issue, a common tactic is to create an AI algorithm that creates a pseudorandom player.
 
 ## Conclusion
-In conclusion, I find that game theory is particularly useful for 2d array games like tic-tac-toe. I did not know how to implement alpha-beta pruning prior to solving this problem and I think this project allows me to further understand its important. I am also happy to experiment with the Minimax algorithm to create an efficient 3x3 game of tic-tac-toe that the player can play with a bot.
+In conclusion, I find that game theory is particularly useful for 2d array games like tic-tac-toe. I did not know how to implement alpha-beta pruning prior to solving this problem and I think this project allows me to further understand its importance. I am also happy to experiment with the Minimax algorithm to create an efficient 3x3 game of tic-tac-toe that the player can play with a bot.
 
 In the future, I might create a parallel version of the minimax algorithm to play a game of tic-tac-toe.
